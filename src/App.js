@@ -9,6 +9,7 @@ import Tokenomics from './components/Tokenomics';
 import SmartContract from './components/SmartContract';
 import Buycrps from './components/Buycrps';
 import Whitepaper from './components/Whitepaper';
+import ScrollButton from './components/ScrollButton';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
             <Route path='/buycrps' element={<Buycrps/>}/>
              <Route path='/whitepaper' element={<Whitepaper/>}/>
       </Routes>
+      <ScrollButton/>
       <Footer/>
     </Router>
   );
