@@ -22,7 +22,7 @@ const About = () => {
               <div className="col-xxl-8">
                 <div className="title-area">
                   <span className="sub-title text-uppercase">#About</span>
-                  <h2 className="sec-title ">CORPUS</h2>
+                  <h2 className="sec-title ">DKC</h2>
                   <div className="sec-shape">
                     <div className="sec-shape_bar" />
                     <div className="sec-shape_bar" />
@@ -37,15 +37,15 @@ const About = () => {
                 <div className="release-card mb-15">
                   <div className="release-card_content">
                     <p className="release-card_text text-light-white">
-                      <strong>Introducing Corpus Tokens – Pioneering the Future of Gaming!</strong><br />
-                      In the constantly evolving world of gaming, Corpus cryptocurrency tokens emerge
+                      <strong>Introducing Dkc Tokens – Pioneering the Future of Gaming!</strong><br />
+                      In the constantly evolving world of gaming, Dkc cryptocurrency tokens emerge
                       as the digital catalysts reshaping how gamers interact with virtual environments.
                       These tokens go beyond simple digital assets; they embody a revolutionary advancement,
                       harnessing blockchain technology to enable secure, transparent, and decentralized
                       transactions within gaming ecosystems.
                       <br /><br />
                       Embark on a journey where every action you take, every milestone you achieve, and every asset you acquire
-                      contributes to a decentralized and dynamic gaming future. Corpus cryptocurrency tokens
+                      contributes to a decentralized and dynamic gaming future. Dkc cryptocurrency tokens
                       aren't just changing the game; they're revolutionizing how you experience it.
                       Welcome to a new gaming era where ownership, transparency, and value are firmly within your control!
                     </p>

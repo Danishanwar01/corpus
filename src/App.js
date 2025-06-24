@@ -8,6 +8,7 @@ import HowToBuy from './components/HowToBuy';
 import Tokenomics from './components/Tokenomics';
 import SmartContract from './components/SmartContract';
 import Buycrps from './components/Buycrps';
+import Whitepaper from './components/Whitepaper';
 
 
 
@@ -24,7 +25,7 @@ const App = () => {
           <Route path='/tokenomics' element={<Tokenomics/>}/>
            <Route path='/contract' element={<SmartContract/>}/>
             <Route path='/buycrps' element={<Buycrps/>}/>
-             
+             <Route path='/whitepaper' element={<Whitepaper/>}/>
       </Routes>
       <Footer/>
     </Router>

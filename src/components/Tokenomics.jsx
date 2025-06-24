@@ -5,8 +5,8 @@ import tokenBg from '../images/f78795.gif';
 
 const Tokenomics = () => {
   const rows = [
-    ['Token Name', 'CORPUS'],
-    ['Token Symbol', 'CRPS'],
+    ['Token Name', 'DKC'],
+    ['Token Symbol', 'DKC'],
     ['Total Supply', '24CR'],
     ['Sale Price', '1$'],
     ['Blockchain', 'BEP20'],

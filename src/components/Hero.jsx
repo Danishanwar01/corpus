@@ -28,13 +28,13 @@ const Hero = () => {
               <div className="row justify-content-center text-center">
                 <div className="col-lg-10 col-xl-8">
                   <div className="hero-content z-index-step1">
-                    <h1 className="hero-logo-icon">CORPUS</h1>
+                    <h1 className="hero-logo-icon">DKC</h1>
                     <span className="hero-sub-title">#WORLD'S NO.1 GAMING TOKEN</span>
                     <h3 className="hero-title">
                       BLOCKCHAIN IS MOVING BEYOND<br />CRYPTOCURRENCY TOKEN
                     </h3>
                     <p className="hero-text">
-                      CRPS cares about its community and is not going to make them<br />
+                      DKC cares about its community and is not going to make them<br />
                       wait for this awesome & unique experience
                     </p>
                   </div>

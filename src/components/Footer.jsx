@@ -36,7 +36,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="copyright">
-          © Copyright 2025 <span className="text-theme2">CORPUS</span>. All rights reserved
+          © Copyright 2025 <span className="text-theme2">DKC</span>. All rights reserved
         </p>
       </footer>
     </div>

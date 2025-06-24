@@ -48,7 +48,7 @@ const Buycrps = () => {
                     {/* Title Invite Note */}
                     <div className="row title-area justify-content-center text-center text-lg-start">
                         <div className="col-lg-auto">
-                            <h2 className="sec-title">BUY CRPS</h2>
+                            <h2 className="sec-title">BUY DKC</h2>
                             <div className="sec-shape">
                                 <div className="sec-shape_bar" />
                                 <div className="sec-shape_bar" />
@@ -60,7 +60,7 @@ const Buycrps = () => {
                                 <p>
                                     <img src={handIcon} width="54" alt="Invite" className='hand-icon' />
                                     <i>
-                                        Invite your friend to presale / IDO and get 3% CRPS token of the
+                                        Invite your friend to presale / IDO and get 3% DKC token of the
                                         amount invested by your friend.
                                     </i>
                                 </p>
@@ -101,11 +101,11 @@ const Buycrps = () => {
                                         type="text"
                                         placeholder="0.00"
                                     />
-                                    <span className="input-unit">CRPS</span>
+                                    <span className="input-unit">DKC</span>
                                 </div>
                             </div>
 
-                            <h5>CRPS to Receive</h5>
+                            <h5>DKC to Receive</h5>
 
                             <div className="payment-method">
                                 <div className="select-with-icon">
@@ -134,7 +134,7 @@ const Buycrps = () => {
                                     style={{ display: 'none' }}
                                     onClick={handleBuyToken}
                                 >
-                                    Buy CRPS
+                                    Buy DKC
                                 </button>
                             </div>
                         </div>
@@ -173,19 +173,19 @@ const Buycrps = () => {
                                 </div>
                                 <div className="row-item">
                                     <span>Direct Income :</span>
-                                    <span className="value">{directIncome} CRPS</span>
+                                    <span className="value">{directIncome} DKC</span>
                                 </div>
                                 <div className="row-item">
                                     <span>Total Token :</span>
-                                    <span className="value">{totalToken} CRPS</span>
+                                    <span className="value">{totalToken} DKC</span>
                                 </div>
                                 <div className="row-item">
                                     <span>Phase I presale :</span>
-                                    <span className="value">1.00 USDT/1 CRPS (1 Lakh)</span>
+                                    <span className="value">1.00 USDT/1 DKC (1 Lakh)</span>
                                 </div>
                                 <div className="row-item">
                                     <span>Phase II presale :</span>
-                                    <span className="value">2.00 USDT/1 CRPS (2 Lakh)</span>
+                                    <span className="value">2.00 USDT/1 DKC (2 Lakh)</span>
                                 </div>
                             </div>
                         </div>

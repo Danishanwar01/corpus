@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="header-top">
         <div className="container no-gutters top-content">
           <p className="header-text">
-            WELCOME TO <span className="highlight">CORPUS</span>
+            WELCOME TO <span className="highlight">DKC</span>
           </p>
           <div className="social-icons">
             <Link to="/" className="icon twitter">
@@ -49,9 +49,9 @@ const Navbar = () => {
               <li><Link to="/aboutus">ABOUT US</Link></li>
               <li><Link to="/howtobuy">HOW TO BUY</Link></li>
               <li><Link to="/tokenomics">TOKENOMICS</Link></li>
-              <li><Link to="/">WHITEPAPER</Link></li>
+              <li><Link to="/whitepaper">WHITEPAPER</Link></li>
               <li><Link to="/contract">CONTRACT</Link></li>
-              <li><Link to="/buycrps" className="buy-link">BUY CRPS</Link></li>
+              <li><Link to="/buycrps" className="buy-link">BUY DKC</Link></li>
             </ul>
           </nav>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
                   className="buy-link"
                   onClick={() => setMobileOpen(false)}
                 >
-                  BUY CRPS
+                  BUY DKC
                 </Link>
               </li>
             </ul>

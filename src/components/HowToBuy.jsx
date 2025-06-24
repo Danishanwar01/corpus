@@ -5,9 +5,9 @@ import nftGirl from '../images/nft_girl.png';
 import bgHowToBuy from '../images/bg_layer.gif'
 const HowToBuy = () => {
   const steps = [
-    'Navigate to the menu bar and select "Buy CRPS."',
+    'Navigate to the menu bar and select "Buy DKC."',
     'Input the desired amount of tokens for purchase.',
-    'Link your wallet to acquire CRPS Tokens.',
+    'Link your wallet to acquire DKC Tokens.',
     'Once the transaction is successful, the tokens will be added to your wallet.'
   ];
 
@@ -29,7 +29,7 @@ const HowToBuy = () => {
         <div className="row">
           <div className="col-xxl-4">
             <div className="title-area">
-              <span className="sub-title text-uppercase">#CRPS</span>
+              <span className="sub-title text-uppercase">#DKC</span>
               <h2 className="sec-title text-white">How to Buy</h2>
               <div className="sec-shape">
                 <div className="sec-shape_bar" />
