@@ -1,0 +1,64 @@
+/* 1. Footer container only — background & padding live here */
+.footer-wrapper {
+  position: relative;
+  padding: 50px 0 30px;         
+  background-image: url('../images/neon3.gif');
+  background-size: cover;
+  background-position: center;
+  /* optional dark overlay */
+}
+  
+/* 2. Content sits on top, no more full‐page div */
+.footer-wrapper .footer-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* 3. Title / underline */
+.footer-wrapper .widget_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+.footer-wrapper .widget_title::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #FFC107;
+  margin: 0.5rem auto 0;
+}
+
+/* 4. Social icons row */
+.footer-wrapper .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.footer-wrapper .gallery-thumb img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #d8d80a;
+  padding: 2px;
+  object-fit: contain;
+}
+
+/* 5. Copyright text */
+.footer-wrapper .copyright {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.footer-wrapper .text-theme2 {
+  color: #FFC107;
+}

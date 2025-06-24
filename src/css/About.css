@@ -1,0 +1,55 @@
+.about-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding: 60px 0;
+}
+
+.vs-video-wrapper {
+  padding: 0;
+}
+
+.title-area {
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #ffc107;
+  font-weight: 500;
+}
+
+ .sec-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.sec-shape {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.sec-shape_bar {
+  width: 30px;
+  height: 5px;
+  background-color: #ffc107;
+}
+
+.release-card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  margin-left: 45px;
+  margin-right: 60px;
+}
+
+.release-card_text {
+  font-size: 15px;
+  color: #f1f1f1;
+  line-height: 1.8;
+  text-align: justify;
+}

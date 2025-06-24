@@ -1,0 +1,107 @@
+/* CSS for HowToBuy.jsx component */
+
+.vs-about-wrapper {
+  background: #1a0f2a; /* Dark purple-black background */
+  padding: 60px 0;
+  color: #fff;
+  position: relative;
+}
+
+.title-area {
+  margin-bottom: 40px;
+}
+
+.sub-title {
+  font-family: 'Orbitron', sans-serif;
+  color: #ffc107;
+  letter-spacing: 2px;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sec-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.sec-shape {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.sec-shape_bar {
+  width: 40px;
+  height: 6px;
+  background: linear-gradient(45deg, #ffc107, #ff9100);
+  border-radius: 3px;
+}
+
+.reverse-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+}
+
+.feature-media {
+  flex: 1 1 400px;
+}
+
+.media-body {
+  padding-right: 20px;
+}
+
+.howto-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.howto-list li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  margin-left: 25px;
+}
+
+.howto-list li::before {
+  content: '➔';
+  color: #ffc107;
+  font-size: 1.2rem;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.howto-image {
+  /* Image on right, sizeable */
+  width: 100%;              /* fill its column */
+  max-width: 500px;         /* optional max size */
+  border-radius: 8px;
+  margin-left: auto;        /* push to right */
+}
+
+@media (max-width: 992px) {
+  .howto-image {
+    max-width: 80%;         /* smaller on mobile */
+    margin: 20px auto 0;
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .reverse-wrap {
+    flex-direction: column;
+  }
+
+  .media-body {
+    padding-right: 0;
+  }
+}

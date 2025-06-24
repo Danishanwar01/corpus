@@ -1,0 +1,246 @@
+
+.sec-title {
+    color: #000;
+    text-align: center;
+}
+.sec-shape {
+    margin-left: 46%;
+}
+.note {
+    text-align: center;
+}
+/* in Buycrps.css */
+.hand-icon {
+  /* make the icon black */
+  filter: brightness(0) saturate(100%);
+  /* now tint it orange (#ffc107) */
+  filter: brightness(0) saturate(100%) invert(66%) sepia(91%) saturate(467%) hue-rotate(2deg) brightness(102%) contrast(101%);
+}
+.buy {
+    background-color: antiquewhite;
+}
+
+
+/* container around icon + select */
+.select-with-icon {
+  display: inline-flex;
+  align-items: center;
+  background: #2a1f3e;
+  border-radius: 8px;
+  overflow: hidden;              /* clip the corners */
+  border: 1px solid #555;        /* light border */
+}
+
+/* the little icon box */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background: #322746;
+}
+
+/* set a fixed size for the icon, if you like */
+.icon-container img {
+  width: 24px;
+  height: 24px;
+}
+
+/* the select itself */
+.chain-select {
+  display: block;
+  background: transparent;       /* show the wrapper’s bg */
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  font-size: 1rem;
+  appearance: none;              /* hide default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* 1. Card wrapper */
+.buycrps-card {
+  background: #1a0f2a;
+  border-radius: 0;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* 2. Left form column takes ~50% */
+.buycrps-form {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Label above inputs */
+.buycrps-form .form-label {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+/* Stacked inputs, full width */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-wrapper .form-control {
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+/* Unit label inside input */
+.input-unit {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  font-weight: 600;
+}
+
+/* “CRPS to Receive” text */
+.buycrps-form h5 {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* Dropdown + Button container */
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+
+
+
+
+.payment-method select {
+  width: 100%;
+  background: #2a1f3e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+/* Big green button */
+.connect-btn {
+  background: #41b95f !important;
+  color: #fff !important;
+  width: 100%;
+  padding: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+}
+
+/* Hide buy-button until connected */
+.buy-btn {
+  display: none;
+}
+
+/* 3. Right stats column */
+.buycrps-stats {
+  flex: 1 1 300px;
+  color: #fff;
+}
+
+/* Header with coin icon + text */
+.stats-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stats-header img {
+  width: 60px;
+}
+
+.stats-header h4 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Referral link line */
+.ref-link {
+  margin: 8px 0 16px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Copy button */
+.copy-btn {
+  background: none;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+/* Stats table */
+.custom-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.95rem;
+}
+
+.row-item span:first-child {
+  color: #ccc;
+}
+
+.row-item .value {
+  color: #ffc107;
+}
+
+/* Responsive: stack columns under 768px */
+@media (max-width: 768px) {
+  .buycrps-card {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,87 @@
+/* SmartContract.css */
+
+
+/* 1. Full-page section background */
+.vs-match-wapper.section-bg-game {
+  background-color: #120a1e;    /* deep purple/black */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* 2. Inner wrapper to keep content on top */
+.vs-match-wapper .filter-active {
+  position: relative;
+  z-index: 2;
+}
+
+/* 3. The heading “SMART CONTRACT” */
+.widget_title {
+  font-family: 'game-font', sans-serif;
+  font-size: 2.5rem;             /* about 40px */
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1rem;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+/* 3a. Gold underline bar */
+.widget_title::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #FFC107;     /* Bootstrap warning yellow */
+  margin: 0.5rem auto 0;
+}
+
+/* 4. The contract string */
+.contract {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.contract a {
+  color: #FFC107;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  word-break: break-all;
+  text-decoration: none;
+}
+
+/* 5. Copy button */
+.copyBtn {
+  display: inline-block;
+  background-color: #FFC107;
+  border: none;
+  color: #120a1e;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+}
+
+.copyBtn:hover {
+  background-color: #e0a800;
+}
+
+/* 6. Flex centering of the column */
+#smartcontract .row > .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 7. (Optional) Hide Bootstrap’s .d-none if you want that section shown */
+/* .d-none { display: block !important; } */

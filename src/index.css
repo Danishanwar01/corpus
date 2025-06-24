@@ -5,7 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(22, 14, 39) !important;
 }
+
+
+/* Global font style on these elements  */
+html, body,
+h1, h2, h3, h4, h5, h6,
+.sec-title,
+.hero-title,
+.hero-logo-icon,
+.sub-title,
+.release-card_text {
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
