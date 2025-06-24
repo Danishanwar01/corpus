@@ -90,7 +90,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/" onClick={() => setMobileOpen(false)}>
+                <Link to="/whitepaper" onClick={() => setMobileOpen(false)}>
                   WHITEPAPER
                 </Link>
               </li>
