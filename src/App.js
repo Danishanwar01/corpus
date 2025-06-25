@@ -10,6 +10,7 @@ import SmartContract from './components/SmartContract';
 import Buycrps from './components/Buycrps';
 import Whitepaper from './components/Whitepaper';
 import ScrollButton from './components/ScrollButton';
+import SplashCursor from './components/SplashCursor';
 
 
 
@@ -18,6 +19,7 @@ import ScrollButton from './components/ScrollButton';
 const App = () => {
   return (
     <Router>
+      <SplashCursor/>
       <Navbar/>
       <Routes>
        <Route path='/' element={<Home/>}/>
